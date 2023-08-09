@@ -9,14 +9,17 @@ with col1:
     st.markdown(pdf_display, unsafe_allow_html=True)
 
     #method 2
+    st.write("Method 1")
     st.markdown("""
     <embed src="https://thomasmorestudies.org/wp-content/uploads/2020/09/Richard.pdf" width="800" height="800">
     """, unsafe_allow_html=True)
 
+    st.write("Method 2")
     st.markdown("""
         <embed src="https://thomasmorestudies.org/wp-content/uploads/2020/09/Richard.pdf" width="800" height="800">
         """, unsafe_allow_html=True)
 
+    st.write("Method 3")
     st.markdown("""
     <embed src="https://raw.githubusercontent.com/Dr-Hutchinson/prompt_chain_0/c2f3795f25683fb194e11072abb9d586964896a2/annotated_full_text.pdf" width="800" height="800">
     """, unsafe_allow_html=True)
